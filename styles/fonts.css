@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Halimum';
+  src: url('../assets/fonts/Halimun.ttf')
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../assets/fonts/Montserrat-Light.ttf')
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../assets/fonts/Montserrat-Bold.ttf')
+}
+
+@font-face {
+  font-family: 'Waterfall';
+  src: url('../assets/fonts/Waterfall-Regular.ttf')
+}

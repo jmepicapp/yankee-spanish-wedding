@@ -1,0 +1,207 @@
+@import 'fonts.css';
+
+body {
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 20px;
+    color: rgb(205, 190, 170) !important;
+    border: 1px solid transparent;
+    -webkit-flex-grow: 1;    
+    flex-grow: 1;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title > img {
+    background: radial-gradient(circle, rgba(57,43,38,0.95) 0%, rgba(57,43,38,0.9) 57%, rgba(57,43,38,0) 73%);
+    width: 25vw;
+    height: auto;
+}
+
+.info {
+    position: relative;
+    background: rgba(57,43,38,0.8);
+    width: 80vw;
+    border-radius: 7px;
+    margin: 2% 0% 5% 10%;
+    padding: 2% 2% 2% 2%;
+    -webkit-transform: translate3d(0,0,0);
+    z-index: 999;}
+
+.info h4 {
+    text-align: center;
+    margin: 2% 0 5% 0;
+}
+
+.btn {
+    margin-right: 35px;
+}
+
+.info h3 {
+    text-align: center;
+    font-family: 'Waterfall', sans-serif;
+    font-size: 100px;
+    color: #CD9341;
+}
+
+.location:link,
+.location:visited,
+.location:active,
+.location:hover {
+    text-decoration: none !important;
+    color: rgb(205, 190, 170) !important;
+}
+
+.language {
+    position: absolute;
+    margin-left: 88%;
+    margin-top: -20%;
+}
+
+.language img {
+    border-radius: 100px;
+    width: 9vw;
+    height: auto;
+}
+
+.icon {
+    width: 3vw;
+    height: 3vh;
+}
+
+.btn-warning {
+    background-color: #CD9341 !important;
+    border-color: #CD9341 !important;
+    color: rgba(57, 43, 38) !important;
+}
+
+#map {
+    height:30vh;
+}
+
+#map iframe {
+    width: 100%;
+    height: inherit;
+}
+
+@media (orientation: landscape) {
+    body {
+        background-image: url('../assets/images/landscape.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        font-size: 16px !important;
+    }
+
+    .info h3 {
+        color: #CD9341;
+    }
+
+    h1 {
+        font-family: 'Halimum', sans-serif;
+        color: white;
+        font-size: 100px;
+    }
+    
+    h2 {
+        font-family: 'Montserrat-Light', sans-serif;
+        color: white;
+        font-size: 50px;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-image: url('../assets/images/landscape.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 42% 0%;
+        background-size: cover;
+        font-size: 25px;
+    }
+
+    .language {
+        margin-left: 82%;
+        margin-top: -45%;
+    }
+    
+    .language img {
+        width: 12vw;
+    }
+
+    .info h3 {
+        font-size: 50px;
+    }
+
+    .info h4 {
+        font-size: 19px;
+    }
+
+    .title > img {
+        width: 50vw;
+    }
+    
+    #map {
+        height: px;
+    }
+
+    .col-xl, .col-lg {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        background-image: url('../assets/images/landscape.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1400px) {
+
+    h1 {
+        font-family: 'Halimum', sans-serif;
+        color: white;
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-family: 'Montserrat-Light', sans-serif;
+        color: white;
+        font-size: 25px;
+    }
+
+    .col-md, .col-sm {
+        display: none;
+    }
+    
+}
+
+@media (orientation: landscape) and (max-width: 1399px) {
+
+    body {
+        background-image: url('../assets/images/landscape.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        font-size: 40px;
+    }
+
+    .col-xl, .col-lg {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 813px) {
+
+    .col-xl, .col-lg {
+        display: none;
+    }
+}
