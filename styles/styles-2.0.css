@@ -35,8 +35,8 @@ body {
     margin: 2% 0 5% 0;
 }
 
-.btn {
-    margin-right: 35px;
+.btn, .card {
+    margin-right: 25px;
 }
 
 .info h3 {
@@ -99,18 +99,6 @@ body {
     .info h3 {
         color: #CD9341;
     }
-
-    h1 {
-        font-family: 'Halimum', sans-serif;
-        color: white;
-        font-size: 100px;
-    }
-    
-    h2 {
-        font-family: 'Montserrat-Light', sans-serif;
-        color: white;
-        font-size: 50px;
-    }
 }
 
 @media (orientation: portrait) {
@@ -164,18 +152,6 @@ body {
 }
 
 @media (orientation: landscape) and (min-width: 1400px) {
-
-    h1 {
-        font-family: 'Halimum', sans-serif;
-        color: white;
-        font-size: 50px;
-    }
-    
-    h2 {
-        font-family: 'Montserrat-Light', sans-serif;
-        color: white;
-        font-size: 25px;
-    }
 
     .col-md, .col-sm {
         display: none;
