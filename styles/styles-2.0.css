@@ -28,7 +28,18 @@ body {
     margin: 2% 0% 5% 10%;
     padding: 2% 2% 2% 2%;
     -webkit-transform: translate3d(0,0,0);
-    z-index: 999;}
+}
+
+.sponsors {
+    width: 100%;
+    margin: 2% 0% 0% 0%;
+}
+
+.sponsors img {
+    cursor: pointer;
+    width: 15vw;
+    height: auto;
+}
 
 .info h4 {
     text-align: center;
@@ -67,8 +78,15 @@ body {
 }
 
 .icon {
-    width: 3vw;
-    height: 3vh;
+    display:flex;
+    justify-content: center;
+    width: 4vw !important;
+    height: 4vh !important;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
 }
 
 .btn-warning {
