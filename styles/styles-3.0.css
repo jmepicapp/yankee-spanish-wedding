@@ -33,10 +33,10 @@ body {
 .sponsors {
     width: 100%;
     margin: 2% 0% 0% 0%;
+    padding-bottom: 5%;
 }
 
 .sponsors img {
-    cursor: pointer;
     width: 15vw;
     height: auto;
 }
@@ -44,6 +44,7 @@ body {
 .info h4 {
     text-align: center;
     margin: 2% 0 5% 0;
+    color: #CD9341;
 }
 
 .btn, .card {
@@ -75,6 +76,7 @@ body {
     border-radius: 100px;
     width: 9vw;
     height: auto;
+    cursor: pointer;
 }
 
 .icon {
@@ -87,6 +89,10 @@ body {
 .logo {
     display: flex;
     justify-content: center;
+}
+
+.icon-group {
+    margin-top: 5% !important;
 }
 
 .btn-warning {
